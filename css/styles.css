@@ -10146,6 +10146,17 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+#amBanner {
+      padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  background-image: url("../assets/img/header-bg7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center bottom;
+  background-size: cover;
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
