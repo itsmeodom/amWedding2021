@@ -24,13 +24,42 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+        
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
 
+         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+         crossorigin=""></script>
+        
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         
         <!-- Adam's CSS -->
         <style>
-        .script
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }   
+        .flex-container > div {
+            min-width: 250px;
+            width: 50%;
+            text-align: center;    
+            padding:5%;
+            padding-top:10px;
+        }
+            
+        #mapid { 
+            height: 350px;
+            width: 500px;
+            align-items: center;
+            justify-content: center;
+        
+        }
         
         </style>
     </head>
@@ -65,14 +94,19 @@
         </header>
         <!-- Event Details-->
         <section class="page-section bg-light" id="eventDetails">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">The Wedding</h2>
-                    <p class = "text-muted">Saturday May 1, 2021</p>
+            <center><h2 class="section-heading text-uppercase">the wedding</h2></center>
+            <br>
+            <div class="flex-container">
+                
+                <div>
+                    <p class = "text-muted"><b>Saturday May 1, 2021</b></p>
                     <p class = "text-muted"><a href ="https://www.monikerevents.com/the-lane"target="_blank"><u>The Lane</u></a></p>
-                    <p><a href ="https://goo.gl/maps/R6RjnvAtFePxmvHg7" target ="blank"><u>900 Bayfront Court, San Diego, CA</u></a></p>                    
+                    <p><a href ="https://goo.gl/maps/R6RjnvAtFePxmvHg7" target ="blank"><u>900 Bayfront Court, San Diego, CA</u></a></p>
                 </div>
-            </div>
+                <div>
+                     <div id="mapid"></div>
+                </div>
+                </div>
         </section>
 
         <!-- About-->
@@ -705,7 +739,6 @@
 
                                    
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Eric_March2013.jpg" alt="" />
-                                    <ul class="list-inline">
                                         <p class = "text-muted">Las Vegas, NV - March 2013</p>
                                     
                                     <p>Eric and Adam have been friends since middle school. Eric was Adam's inspiration to go to UC Santa Barbara, and introduced Adam to their group of friends that have remained close since college. While Eric is mainly known for his dance moves, he and Adam also represent 2/3 of the musical trio known as The Abregbros. Shout out to Sean!</p>
@@ -733,5 +766,27 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!--Leaflet Map -->
+        <script>
+
+	       var mymap = L.map('mapid').setView([32.71709, -117.172032], 14.5);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/arraraza/ckcs312cd0wx51ioha5b7wptf/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYXJyYXJhemEiLCJhIjoiY2lwcTVyemEwMDViMWZ3bmNwNzd5ZnBuaiJ9.oKGKIzA2cio0rr4gSmG4WQ', {
+                maxZoom: 18,
+                attribution: '<a href="https://www.mapbox.com/">Mapbox</a>',
+                id: 'mapbox/streets-v11',
+                tileSize: 512,
+                zoomOffset: -1
+            }).addTo(mymap);
+
+            L.marker([32.71709, -117.172032]).addTo(mymap)
+                .bindPopup("<b>The Lane</b><br />").openPopup();
+
+
+
+            var popup = L.popup();
+
+</script>
+        
     </body>
 </html>
