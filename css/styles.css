@@ -10140,8 +10140,9 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
+  text-shadow:  -0.5px -0.5px 0 #6c757d, 0.5px -0.5px 0 #6c757d, -0.5px 0.5px 0 #6c757d, 0.5px 0.5px 0 #6C757F;
   color: #fff;
-  background-image: url("../assets/img/header-bg4.jpg");
+  background-image: url("../assets/img/header-bg12.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10163,7 +10164,8 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-font-family: 'Raleway', sans-serif;
+  text-shadow:  -0.5px -0.5px 0 #6c757d, 0.5px -0.5px 0 #6c757d, -0.5px 0.5px 0 #6c757d, 0.5px 0.5px 0 #6C757F;
+  font-family: 'Raleway', sans-serif;
 }
 header.masthead .masthead-heading {
 margin-top: 5rem; 
