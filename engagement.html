@@ -1,1 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="Description" content="Wedding website of Melissa Tran and Adam Araza. Details, registry, and RSVP" />
+        <meta name="author" content="" />
+        <title>Melissa Tran and Adam Araza Wedding</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/corgi.ico" />
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120788146-4"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-120788146-4');
+        </script>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+        
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+
+         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+         crossorigin=""></script>
+        
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+        <!-- Adam's CSS -->
+        <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }   
+        .flex-container > div {
+            min-width: 250px;
+            height: 350px;
+            text-align: center;    
+            padding:3rem; 
+            font-size: 1.4rem;
+            padding-bottom: 10px;
+            color:#CDA34F;
+
+        }
+            
+                .a-row  {
+    width: 
+        }
+        
+            
+        #mapid { 
+            height: 350px;
+            max-height: 350px;
+            max-width: 75%;
+            min-width:275px;
+            align-items: center;
+            justify-content: center;
+            border: 2px #545b62;
+            border-radius:20px;
+        
+        }
+        
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">AMW</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#eventDetails">Event Details</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#bridalParty">Bridal Party</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accomodations">Accomodations</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#otherInfo">Other Info</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#RSVP">RSVP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+          
+                <div class="masthead-heading">Melissa and Adam</div>
+                      <div class="masthead-subheading">December 4, 2021
+                                    <a class="nav-link js-scroll-trigger" href="#RSVP"><button class="btn btn-primary" type="button">R S V P</button></a>
+</div>
+            </div>
+        </header>
+        <!-- Event Details-->
+        <section class="page-section bg-light" id="eventDetails">
+            <center><h2 class="section-heading text-uppercase">the wedding</h2></center>
+            <br>
+            <div class="flex-container">
+                
+                <div>
+                    <br>
+                    <p><b>Saturday December 4, 2021 at 3:30 PST</b></p>
+                    <p class = "text-muted"><b>Cocktail Attire</b></p>
+                    <p class = "text-muted"><a href ="https://www.monikerevents.com/the-lane"target="_blank"><u>The Lane</u></a></p>
+                    <p><a href ="https://goo.gl/maps/R6RjnvAtFePxmvHg7" target ="blank"><u>900 Bayfront Court, San Diego, CA</u></a></p>
+                    <a class="nav-link js-scroll-trigger" href="#RSVP"><button class="btn btn-primary" type="button">R S V P</button></a>
+                </div>
+
+                </div>
+        </section>
+
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">The Story</h2>
+                    <h3 class="section-subheading text-muted">Melissa Tran & Adam Araza</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/coffeebagel.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2015</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">In true millennial fashion, Melissa and Adam met on a dating app called Coffee Meets Bagel. Adam gave the impression he knew how to scuba dive (he didn’t)  and Melissa slyly indicated she did not live with her parents (she did).</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/boba.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>February 2, 2016</h4>
+                                <h4 class="subheading">A Relationship is Born</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Before a spontaneous trip to San Diego, their relationship became official! Adam officially asked Melissa out at a mediocre boba shop. Luckily, the mediocrity of the boba was not a sign of things to come.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/sunnyvale.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>April 15, 2017</h4>
+                                <h4 class="subheading">It's Always Sunnier</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">After realizing they really liked each other, Melissa finally convinced Adam that it made more sense to live closer to work (and her parents) than to live closer to Downtown San Jose. Melissa, Adam, and Waffles started their new life together in Sunnyvale, CA; the pain of living in suburbia was off-set by living a short drive away from an In-n-Out.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/engagement.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>January 27, 2020</h4>
+                                <h4 class="subheading">The Proposal</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Adam proposed to Melissa in the living room of their Cupertino duplex. With encouragement from Waffles, Adam got down on his knee, (just two months after knee surgery!) and popped the question. Melissa said “Yes”, then bought a coffee table to make sure no one else can have a proposal in the same space.</p></div>
+                        </div>
+                    </li>
+                    <li>
+              <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                            
+                        </div>                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 4, 2021</h4>
+                                <h4 class="subheading">The Wedding</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Celebrate with Melissa and Adam as they start the next chapter of their lives. Join for an intimate evening of fun, love, and great food.</p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="bridalParty">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">The Wedding Party</h2>
+                    <h3 class="section-subheading text-muted">Click the Photos for More Info</h3>
+
+                    <br><br>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalMai">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Mai3.jpg" alt="" />
+                            </a>
+                            <h4>Mai Truong</h4>
+                            <p class="text-muted">Mother of the Bride</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalHung">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Hung.jpg" alt="" />
+                            </a>
+                            <h4>Hung Tran</h4>
+                            <p class="text-muted">Father of the Bride</p>
+                        </div>
+                    </div>
+                      <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalRosan">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Rosan2.jpg" alt="" />
+                            </a>
+                            <h4>Rosan Araza</h4>
+                            <p class="text-muted">Mother of the Groom</p>
+                        </div>
+                    </div>
+                       <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalRene">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Rene2.jpg" alt="" />
+                            </a>
+                            <h4>Rene Araza</h4>
+                            <p class="text-muted">Father of the Groom</p>
+                        </div>
+                        </div>
+                </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalJenny">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Jenny.jpg" alt="" />
+                            </a>
+                            <h4>Jenny Truong</h4>
+                            <p class="text-muted">Principal Sponsor</p>
+                        </div>
+                    </div>                
+                      <div class="col-sm-4  col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalVince">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Vince.jpg" alt="" />
+                            </a>
+                            <h4>Vincent Shen</h4>
+                            <p class="text-muted">Officiant</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalRoland">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Rolex.jpg" alt="" />
+                            </a>
+                            <h4>Roland Rivera</h4>
+                            <p class="text-muted">Principal Sponsor</p>
+                        </div>
+                    </div>
+                      
+                </div>
+                <div class="row">
+                    
+              
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalColleen">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Colleen.jpg" alt="" />
+                            </a>
+                            <h4>Colleen Lettire</h4>
+                            <p class="text-muted">Maid of Honor</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalWaffles">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Waffles3.jpg" alt="" />
+                            </a>
+                            <h4>Waffles Tran Araza</h4>
+                            <p class="text-muted">Best Dog</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalAdrian">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Adrian.jpg" alt="" />
+                            </a>
+                            <h4>Adrian Araza</h4>
+                            <p class="text-muted">Best Man</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    
+              
+
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalPam">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Pam.jpg" alt="" />
+                            </a>
+                            <h4>Pamela Tran</h4>
+                            <p class="text-muted">Bridesmaid</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalCarolyn">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Carolyn.jpg" alt="" />
+                            </a>
+                            <h4>Carolyn Li</h4>
+                            <p class="text-muted">Bridesmaid</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalJames">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/James.jpg" alt="" />
+                            </a>
+                            <h4>James Li</h4>
+                            <p class="text-muted">Bridesman</p>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="row">
+
+
+           
+                  <div class="col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalSean">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Sean.jpg" alt="" />
+                            </a>
+                            <h4>Sean Harwood</h4>
+                            <p class="text-muted">Groomsman</p>
+                        </div>
+                    </div>
+                            <div class="col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalWillie">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Willie.jpg" alt="" />
+                            </a>
+                            <h4>Willie Greene</h4>
+                            <p class="text-muted">Groomsman</p>
+                        </div>
+                    </div>
+                             <div class="col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalEric">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Eric.jpg" alt="" />
+                            </a>
+                            <h4>Eric Bedoya</h4>
+                            <p class="text-muted">Groomsman</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalZion">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Zion.jpg" alt="" />
+                            </a>
+                            <h4>Zion Ramon</h4>
+                            <p class="text-muted">Groomsman</p>
+                        </div>
+                    </div>
+        
+               
+                    
+                </div>                
+                <div class="row">
+                
+ 
+
+                 
+                </div>
+
+                </div>
+         
+        </section>
+            <!-- Accomodations Grid-->
+        <section class="page-section" id="accomodations">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Accomodations</h2>
+                    <p class="text-muted">We will be booking blocks of rooms at two hotels in San Diego. Mention our wedding and receive a discounted rate. <br></p>
+                         <p class="text-muted">The <a href = "https://www.marriott.com/hotels/travel/sandh-springhill-suites-san-diego-downtown-bayfront/" target="_blank">Springhill Suites San Diego Downtown Bayfront</a> at 900 Bayfront Court is the hotel on the same property as our venue. It is a short walk from the Gaslamp Quarter and Little Italy.</p> 
+                    <p class = "text-muted"><a href ="https://www.marriott.com/hotels/travel/santa-towneplace-suites-san-diego-airport-liberty-station/">TownePlace Suites San Diego Airport/Liberty Station</a> at 2311 Lee Court is only a short ride away from the airport and our venue. The room rate includes parking.</p>
+                    
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1hEBI2hJPwAG0BrVTdBExc-vvhYtdRtKx" width = "100%" min-width = "300" max-width="600" height="380"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- OtherInfo-->
+                <section class="page-section bg-light" id="otherInfo">
+
+        <div class="py-5">
+            <div class="container">
+  <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Other Information</h2>
+      <h3 class="section-subheading text-muted">Common Questions and Things to Know</h3>
+                      </div>
+      <h4>Coronavirus</h4>
+    <p class = "text-muted">We are taking as many precautions as we can while we plan our wedding. In the event that it is deemed unsafe to hold a large gathering in San Diego County, we will take any necessary measures to ensure we get married before 2022. </p>
+        <br>
+                
+    <h4>Vaccinations</h4>
+    <p class = "text-muted">For the safety of our families and friends, we ask that all guests be fully vaccinated for Covid-19 before attending our wedding. If you are unable to receive the vaccination, we politely ask that you decline our invite.</p>
+    <br>
+
+    <h4>Can I Bring my Kids?</h4>
+    <p class = "text-muted">Our event is restricted to adults ages 18+. We love your kids from afar, and you deserve a night out!
+    </p>
+    <br>
+    <h4>Can I Bring a Guest or +1?</h4>
+    <p class = "text-muted">To keep the celebration intimate, we are keeping the guest list limited. Please do not bring anyone who was not invited.</p>
+    <br>
+    <h4>Our Wedding Registry</h4>
+    <p class = "text-muted">Coming soon! We're in the process of building our life together and monetary gifts are gladly accepted. </p>
+    <br>
+    <h4>A Note on Vaping/Smoking</h4>
+    <p class = "text-muted">Please do not smoke or vape in the venue, including the outdoor balcony. Anyone doing so will be politely asked to leave. </p>
+    <br>
+    <h4>The Planning Process</h4>
+                <p class = "text-muted">Planning a wedding in San Diego wouldn't have been possible without the guidance from our fantastic wedding planner Jessica of <a href ="https://www.planprepparty.com/"target="_blank">Plan Prep Party</a>. If planning a SoCal wedding is in your future, we whole-heartedly recommend working with Jessica. See all our vendors <a class="portfolio-link" data-toggle="modal" href="#modalVendors">here</a>.</p>
+
+                    
+            </div>
+        </div>
+                            </section>
+     
+    
+        <!-- RSVP-->
+        <section class="page-section" id="RSVP">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">RSVP</h2>
+                    <h3 class="section-subheading text-muted">If you are having issues seeing the RSVP form, <a href ="https://tranaraza.rsvpify.com">click here</a></h3>
+                        
+                    <script type="text/javascript" src="https://app.rsvpify.com/embed/500409678" scrolling="yes"></script><script type="text/javascript" src="https://app.rsvpify.com/js/iframeResizer.min.js"></script><script type="text/javascript">iFrameResize({autoResize: true,checkOrigin: false,heightCalculationMethod: 'max', enablePublicMethods: true}, "#RSVPifyIFrame");</script>
+                    
+                            <p >If you are having issues seeing the RSVP form, <a href ="https://tranaraza.rsvpify.com">click here</a></p>
+                </div>
+         
+            </div>
+        </section>
+       <!-- am Banner-->
+        <section class="page-section" id="amBanner">
+            
+            </section>
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">© Waffles Tran Araza 2021</div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Modals-->
+        <!-- Mai-->
+        <div class="portfolio-modal modal fade" id="modalMai" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Mai.jpg" alt="" />
+                                    <p class = "text-muted">San Jose, CA - Circa 1991</p>
+                                    <p>Over the years, Mai has passed along family recipes, words of wisdom (don’t wear sweatpants on dates!), and her disdain for vegetables. She has always been one of Melissa’s biggest supporters & is always there to lend a hand. Melissa has always strived to make her proud and plans to do so by finally starting to moisturize daily.</p>
+                      
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hung-->
+        <div class="portfolio-modal modal fade" id="modalHung" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Hung.jpg" alt="" />
+                                    <p class = "text-muted">San Francisco, CA - August 1992</p>
+                                    <p>Hung (also known as Henry) has shared his love of cooking, seafood & gardening with Melissa. He has guided Melissa through various life milestones, including her move back from Los Angeles, which ultimately led her to meet Adam. During her first date with Adam, Hung called Melissa 3 times to remind her it was a weeknight & to come home to her dog.
+                                    </p>
+                      
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Rosan-->
+        <div class="portfolio-modal modal fade" id="modalRosan" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Rosan_Dec96.jpg" alt="" />
+                
+                                    <p class="text-muted">Oak Harbor, WA - December 1996</p>
+                                    <p>Adam has always cherished the relationship he has with mother. Though it's been many years since they've lived in the same city, she is still one of the first people Adam calls to share news or ask for advice. A true people person, Rosan has taught Adam the importance of maintaining friendships and putting others before yourself. As her youngest child, Adam knows he never has to compete for her love or her attention... unless Akila is around.  </p>
+                                
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Rene-->
+        <div class="portfolio-modal modal fade" id="modalRene" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Renato_Oct92.jpg" alt="" />
+                                    <p class ="text-muted">October 1992</p>
+                                    <p>Adam knows how lucky he is to have a father with so much patience and knowledge. Through Rene's presence, Adam was shown the values of being responsible with money, having consistent habits, and doing the research before making big decisions. Despite his careful and quiet demeanor, for the right audience, Rene is quite the joker. His jokes are so entertaining, Melissa gets excited to hear Rene's reactions to Adam's latest gossip. </p>
+                        
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Jenny-->
+        <div class="portfolio-modal modal fade" id="modalJenny" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Jenny.jpg" alt="" />
+                                    <p class = "text-muted">San Jose, CA - October 1991</p>
+                                    <p>A principal sponsor is a person in the couple's life who can be looked to for advice and guidance. Despite having a very large family, Jenny could arguably be one of Melissa’s favorite aunts. She’s been there since Day 1 (they used to be roomies!) and has taught Melissa some valuable information, including how cool it looks to drive a stick shift and to not forget the extra caramel in a caramel macchiato. 
+</p>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Vince-->
+        <div class="portfolio-modal modal fade" id="modalVince" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Vince.jpg" alt="" />
+                                                                        <p class = "text-muted">San Francisco, CA - September 2020</p>
+
+                                    <p>Melissa met Vince while they were both working and living in Santa Monica. After becoming the okay-est of friends at work, their common love of drinking after work & gossiping really propelled their friendship. Both eventually moved up to the Bay Area, where they’d occasionally hang out with one another. Since Melissa started dating Adam, the three of them have hung out more consistently, most likely because Vince prefers Adam. Which is fine, because Adam also likes Vince. With this mutual liking of each other, Melissa and Adam asked Vince to officiate their wedding because he’s a pretty solid dude and a great friend. 
+                                    </p>
+                   
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Roland-->
+        <div class="portfolio-modal modal fade" id="modalRoland" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Roland2000.jpg" alt="" />
+                                    <p class ="text-muted"> November 2000</p>
+                                    <p>A principal sponsor is a person in the couple's life who can be looked to for advice and guidance. Roland is Adam's fun uncle that has been hugely influential throughout his life. Roland has provided a premier example of how to work hard and still enjoy life. The Original Geographer, he introduced Adam to snow sports, convertibles, and LASIK surgery, as well as guiding Adam to the field of work that has helped him to attain those goals.</p>
+                        
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Colleen-->
+        <div class="portfolio-modal modal fade" id="modalColleen" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Colleen.jpg" alt="" />
+                                    <p class ="text-muted"> Seattle, WA - February 2018</p>
+                                    <p>Colleen was originally Adam’s work wife at the City of Cupertino. On a fateful night where Adam couldn’t make a showing of Atomic Blonde, Melissa took the leap of faith to do something 1:1 with Colleen. Combining their love of large sunglass frames, Charlize Theron & finding the perfect sandwich, Melissa has slowly taken over the friendship and Colleen is now her Maid of Honor.</p>
+                              
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Adrian-->
+        <div class="portfolio-modal modal fade" id="modalAdrian" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Adrian.jpg" alt="" />
+                                    <ul class="list-inline">
+                                        <li></li>
+                                    </ul>
+                                    <p>Adam's brother Adrian can always be counted on for a great time. Whether playing video games, sports, or drinking, Adrian has always been there to show Adam the best ways to have fun. With the many moves that come with having a father in the Navy, Adam considers himself fortunate to have Adrian's friendship as a constant in his life. Despite a consistent trend of tardiness, Adam knows that he can always depend on his brother to be there for him... eventually.</p>
+                                   
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pam-->
+        <div class="portfolio-modal modal fade" id="modalPam" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                  
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Pam.jpg" alt="" />
+                                    <p class= "text-muted"> Las Vegas, NV - August 2016</p>
+                                    <p>Melissa first met Pam in high school when she was tasked by Harris (her older brother) to find Pam (someone she’d never met before) to deliver a cellphone. Since that awkward meeting, Pam has officially joined the Tran Clan and has become one of Melissa’s go-to people for Costco runs, food trends & fashion help.
+
+                                    </p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carolyn-->
+        <div class="portfolio-modal modal fade" id="modalCarolyn" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Carolyn.jpg" alt="" />
+                                    <p class = "text-muted">Dockweiler Beach, CA - September 2009: Photo Credit Russell Igarashi </p>
+                                    <p>Melissa and Carolyn met at USC, both paddling for the Dragon Boat team. Despite Melissa’s facial expression, they’re pretty good friends and Carolyn is someone she can always turn to for life rants and some friendly competition. Melissa also relies on Carolyn to share recipes and ideas for dinner.
+
+</p>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Willie-->
+        <div class="portfolio-modal modal fade" id="modalWillie" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Willie_2009.jpg" alt="" />
+                                                                        
+                                        <p class="text-muted">Davis, CA - July 2010</p>
+                            
+                                    <p>Willie and Adam have been friends since high school, where they initially bonded over shared interests in music, basketball, and Yu-Gi-Oh. Willie is a funny guy with an inspiring presence. His successes in grad school and online dating motivated Adam to pursue a Master's degree and create a profile on Coffee Meets Bagel, both decisions that have worked out really well. Allegedly, as youths, they used to "bully" some of the neighborhood kids, but these rumors can never be proven true.</p>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Eric-->
+        <div class="portfolio-modal modal fade" id="modalEric" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/eric_abc.jpg" alt="" />
+                                        <p class = "text-muted">Isla Vista, CA - April 2013</p>
+                                    
+                                    <p>Eric and Adam have been friends since middle school and is considered to be one of Adam's most dependable friends. Regardless if he is working late or hungover, Eric always finds ways to have his friends' backs. It was a conversation with him that motivated Adam to apply to UC Santa Barbara. Known as the Sloth King, he, Adam, and their friend Sean shared a one-bedroom apartment over the summer where they created the memorable Abregbros music experience.</p>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- Waffles-->
+        <div class="portfolio-modal modal fade" id="modalWaffles" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Waffles_Oct2013.jpg" alt="" />
+                                        <p class = "text-muted">Baldwin Park, CA - October 2013</p>
+                                    
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!-- Sean-->
+        <div class="portfolio-modal modal fade" id="modalSean" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Eric_March2013.jpg" alt="" />
+                                        <p class = "text-muted">Las Vegas, NV - March 2013</p>
+                                    <p>As two transfer students who barely knew anyone else at UCSB, Adam was fortunate to find a quality friend in Sean. Together, they masterminded multiple drinking games, an iconic musical experience, and even investigated petty crime in the streets of Isla Vista. After college, the two have remained close, sharing a mutual love for the Sacramento Kings, Jack Johnson, snowboarding, and, most recently, golf. Sean is one of the most genuine and friendly people Adam knows and he can always be counted on to make sure everyone is having a good time. </p>
+                                    
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                                <!-- Zion-->
+        <div class="portfolio-modal modal fade" id="modalZion" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/zion.jpg" alt="" />
+                                        <p class = "text-muted">San Francisco, CA - May 2014</p>
+                                    <p>Adam and Zion first met while working for a non-profit in 2013 where they bonded over a shared appreciation of buzz cuts and a mutual understanding of “business casual”. They have grown together from their time as irresponsible youths making no money, to somewhat respectable young adults piecing their lives together in the Bay Area. Together, they’ve taken many unnecessary shots, done countless pushups, and unknowingly offended too many friends. Zion is Adam’s closest male friend among everyone he’s met since moving to San Jose, and he is glad Zion can be part of the special day. (Melissa is obviously Adam’s closest overall friend since moving to San Jose).</p>
+                                    
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                                <!-- James-->
+        <div class="portfolio-modal modal fade" id="modalJames" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/James.jpg" alt="" />
+                                        <p class = "text-muted">USC Fountain Run - May 2012</p>
+                                    <p>Melissa & James met at USC during their Freshman year while paddling for the Dragonboat team. Their friendship expanded past club sports, and while living together as housemates, James taught Melissa that liquid dish soap does NOT belong in the dishwasher & how to somewhat drive a stick shift. He also didn’t get very mad when she reversed his car into a pillar because she can’t multitask. Over the years, their mutual interests have diversified from all things alcoholic beverages to include sharing dope recipes & gardening.</p>
+                                    
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                <div class="portfolio-modal modal fade" id="modalVendors" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+
+                                   <p><b>Wedding Planner</b>
+                                    <br><span class = "text-muted"><a href="https://planprepparty.com">Plan Prep Party</a> | <a href= 'https://www.instagram.com/planprepparty/?hl=en'>@planprepparty</a></span></p>
+                                   <p><b>Venue</b>
+                                    <br><span class = "text-muted"><a href = "https://www.monikerevents.com/the-lane">Moniker Events: The Lane San Diego</a> | <a href= 'https://www.instagram.com/thelanesd/?hl=en'>@thelanesd</a></span></p>
+                                   <p><b>Catering</b>
+                                    <br><span class = "text-muted"><a href = "https://www.thewildthymecompany.com/">The Wild Thyme Company</a> | <a href= 'https://www.instagram.com/thewildthymeco/?hl=en'>@thewildthymeco</a></span></p>
+                                   <p><b>Photography</b>
+                                       <br><span class = "text-muted"><a href = "https://letsfrolictogether.com/">Lets Frolic Together</a> | <a href = 'https://www.instagram.com/letsfrolictogether/?hl=en'>@letsfrolictogether</a></span></p>
+                                    <p><b>Videography</b>
+                                    <br><span class = "text-muted"><a href ="http://www.blackshuttermedia.com/">Black Shutter Media</a></span></p>
+                                    <p><b>DJ</b>
+                                    <br><span class = "text-muted"><a href ="https://brinkentertainment.com/">Brink Entertainment</a> | <a href= 'https://www.instagram.com/malcolmalexndr/?hl=en'>@malcolmalexndr</a></span></p>
+                                    
+                                    <p><b>Cake</b>
+                                    <br><span class = "text-muted"> <a href="https://peggyskitchensd.com">Peggy's Cake Design & Deserts</a> |<a href= 'https://www.instagram.com/peggyliaocake/?hl=en'>@peggyliaocake</a> </span></p>
+                                   <p><b>Florist</b>
+                                    <br><span class = "text-muted"><a href ="https://nancylobodesigns.com">Nancy Lobo Designs</a> | <a href= 'https://www.instagram.com/nancylobodesigns/?hl=en'>@nancylobodesigns</a></span></p>
+                     
+
+
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!--Leaflet Map -->
+        <script>
+
+	       var mymap = L.map('mapid').setView([32.71709, -117.172032], 13);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/arraraza/ckcs48ip61h1q1io41009wzvg/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYXJyYXJhemEiLCJhIjoiY2lwcTVyemEwMDViMWZ3bmNwNzd5ZnBuaiJ9.oKGKIzA2cio0rr4gSmG4WQ', {
+                maxZoom: 18,
+                attribution: '<a href="https://www.mapbox.com/">Mapbox</a>',
+                id: 'mapbox/streets-v11',
+                tileSize: 512,
+                zoomOffset: -1
+            }).addTo(mymap);
+
+            L.marker([32.71709, -117.172032]).addTo(mymap)
+                .bindPopup("<b>The Lane</b><br />").openPopup();
+
+
+
+            var popup = L.popup();
+
+</script>
+        
+    </body>
+</html>
 
