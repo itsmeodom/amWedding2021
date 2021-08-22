@@ -72,7 +72,17 @@
             border-radius:20px;
         
         }
-        
+        @media only screen and (min-width: 751px) {
+
+    .content .dashboard{display:block;}
+    .content .errorMessage{display:none;}
+}
+
+@media only screen and (max-width: 750px) {
+
+    .content .dashboard{display:none;}
+    .content .errorMessage{display:block;}
+}
         </style>
     </head>
     <body id="page-top">
@@ -446,15 +456,28 @@
         <section class="page-section" id="RSVP">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">RSVP</h2>
+                <h2 class="section-heading text-uppercase">RSVP</h2>
+                                
                     <h3 class="section-subheading text-muted">If you are having issues seeing the RSVP form, <a href ="https://tranaraza.rsvpify.com">click here</a></h3>
                         
-                    <script type="text/javascript" src="https://app.rsvpify.com/embed/500409678" scrolling="yes"></script><script type="text/javascript" src="https://app.rsvpify.com/js/iframeResizer.min.js"></script><script type="text/javascript">iFrameResize({autoResize: true,checkOrigin: false,heightCalculationMethod: 'max', enablePublicMethods: true}, "#RSVPifyIFrame");</script>
+                    <div class = "content">
+                        <div class = "errorMessage">
+                            <a href="https://tranaraza.rsvpify.com"><button class="btn btn-primary" type="button">Phone RSVP</button></a>
+                        </div>
+                        <div class = "dashboard">
+                                          <script type="text/javascript" src="https://app.rsvpify.com/embed/500409678" scrolling="yes"></script><script type="text/javascript" src="https://app.rsvpify.com/js/iframeResizer.min.js"></script><script type="text/javascript">iFrameResize({autoResize: true,checkOrigin: false,heightCalculationMethod: 'max', enablePublicMethods: true}, "#RSVPifyIFrame");</script>
+                        </div>
+                    
+                    
+                    
+                    
+        
+
                     
                             <p >If you are having issues seeing the RSVP form, <a href ="https://tranaraza.rsvpify.com">click here</a></p>
                 </div>
-         
-            </div>
+                
+                </div></div>
         </section>
        <!-- am Banner-->
         <section class="page-section" id="amBanner">
