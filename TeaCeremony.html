@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="Description" content="Wedding website of Melissa Tran and Adam Araza. Details, registry, and RSVP" />
+        <meta name="author" content="" />
+        <title>Melissa Tran and Adam Araza Wedding</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/corgi.ico" />
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120788146-4"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-120788146-4');
+        </script>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+        
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+
+         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+         crossorigin=""></script>
+        
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+        <!-- Adam's CSS -->
+        <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }   
+        .flex-container > div {
+            min-width: 250px;
+            height: 350px;
+            text-align: center;    
+            padding:3rem; 
+            font-size: 1.4rem;
+            padding-bottom: 10px;
+            color:#CDA34F;
+
+        }
+            
+                .a-row  {
+    width: 
+        }
+        
+            
+        #mapid { 
+            height: 350px;
+            max-height: 350px;
+            max-width: 75%;
+            min-width:275px;
+            align-items: center;
+            justify-content: center;
+            border: 2px #545b62;
+            border-radius:20px;
+        
+        }
+        @media only screen and (min-width: 951px) {
+
+    .content .dashboard{display:block;}
+    .content .errorMessage{display:none;}
+}
+
+@media only screen and (max-width: 950px) {
+
+    .content .dashboard{display:none;}
+    .content .errorMessage{display:block;}
+}
+
+            
+
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">AMW</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#eventDetails">Event Details</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#bridalParty">Bridal Party</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accomodations">Accomodations</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#otherInfo">Registry & Other Info</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#RSVP">RSVP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead" style ="  background-image: url('../assets/img/header-bg16.jpg);">
+            <div class="container">
+          
+                <div class="masthead-heading">Our Tea Ceremony</div>
+                      <div class="masthead-subheading">November 6, 2021
+                                    
+</div>
+            </div>
+        </header>
+        <!-- Event Details-->
+        <section class="page-section bg-light" id="eventDetails">
+            <center><h2 class="section-heading text-uppercase">the wedding</h2></center>
+            <br>
+            <div class="flex-container">
+                
+                <div>
+                    <br>
+                    <p><b>Saturday November 6, 2021 at 10:00 PST</b></p>
+                    <p class = "text-muted"><b>Cocktail Attire</b></p>
+                    <p class = "text-muted"><a href ="https://www.monikerevents.com/the-lane"target="_blank"><u>The Lane</u></a></p>
+                    <p><a href ="https://goo.gl/maps/R6RjnvAtFePxmvHg7" target ="blank"><u>900 Bayfront Court, San Diego, CA</u></a></p>
+                    <a class="nav-link js-scroll-trigger" href="#RSVP"><button class="btn btn-primary" type="button">R S V P</button></a>
+                </div>
+
+                </div>
+        </section>
+
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">The Story</h2>
+                    <h3 class="section-subheading text-muted">Melissa Tran & Adam Araza</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/coffeebagel.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2015</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">In true millennial fashion, Melissa and Adam met on a dating app called Coffee Meets Bagel. Adam gave the impression he knew how to scuba dive (he didn’t)  and Melissa slyly indicated she did not live with her parents (she did).</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/boba.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>February 2, 2016</h4>
+                                <h4 class="subheading">A Relationship is Born</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Before a spontaneous trip to San Diego, their relationship became official! Adam officially asked Melissa out at a mediocre boba shop. Luckily, the mediocrity of the boba was not a sign of things to come.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/sunnyvale.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>April 15, 2017</h4>
+                                <h4 class="subheading">It's Always Sunnier</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">After realizing they really liked each other, Melissa finally convinced Adam that it made more sense to live closer to work (and her parents) than to live closer to Downtown San Jose. Melissa, Adam, and Waffles started their new life together in Sunnyvale, CA; the pain of living in suburbia was off-set by living a short drive away from an In-n-Out.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/engagement.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>January 27, 2020</h4>
+                                <h4 class="subheading">The Proposal</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Adam proposed to Melissa in the living room of their Cupertino duplex. With encouragement from Waffles, Adam got down on his knee, (just two months after knee surgery!) and popped the question. Melissa said “Yes”, then bought a coffee table to make sure no one else can have a proposal in the same space.</p></div>
+                        </div>
+                    </li>
+                    <li>
+              <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                            
+                        </div>                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 4, 2021</h4>
+                                <h4 class="subheading">The Wedding</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Celebrate with Melissa and Adam as they start the next chapter of their lives. Join for an intimate evening of fun, love, and great food.</p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="bridalParty">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">The Wedding Party</h2>
+                    <h3 class="section-subheading text-muted">Click the Photos for More Info</h3>
+
+                    <br><br>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalMai">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Mai3.jpg" alt="" />
+                            </a>
+                            <h4>Mai Truong</h4>
+                            <p class="text-muted">Mother of the Bride</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalHung">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Hung.jpg" alt="" />
+                            </a>
+                            <h4>Hung Tran</h4>
+                            <p class="text-muted">Father of the Bride</p>
+                        </div>
+                    </div>
+                      <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalRosan">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Rosan2.jpg" alt="" />
+                            </a>
+                            <h4>Rosan Araza</h4>
+                            <p class="text-muted">Mother of the Groom</p>
+                        </div>
+                    </div>
+                       <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalRene">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Rene2.jpg" alt="" />
+                            </a>
+                            <h4>Rene Araza</h4>
+                            <p class="text-muted">Father of the Groom</p>
+                        </div>
+                        </div>
+                </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalJenny">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Jenny.jpg" alt="" />
+                            </a>
+                            <h4>Jenny Truong</h4>
+                            <p class="text-muted">Principal Sponsor</p>
+                        </div>
+                    </div>                
+                      <div class="col-sm-4  col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalVince">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Vince.jpg" alt="" />
+                            </a>
+                            <h4>Vincent Shen</h4>
+                            <p class="text-muted">Officiant</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalRoland">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Rolex.jpg" alt="" />
+                            </a>
+                            <h4>Roland Rivera</h4>
+                            <p class="text-muted">Principal Sponsor</p>
+                        </div>
+                    </div>
+                      
+                </div>
+                <div class="row">
+                    
+              
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalColleen">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Colleen.jpg" alt="" />
+                            </a>
+                            <h4>Colleen Lettire</h4>
+                            <p class="text-muted">Maid of Honor</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalWaffles">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Waffles3.jpg" alt="" />
+                            </a>
+                            <h4>Waffles Tran Araza</h4>
+                            <p class="text-muted">Best Dog</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalAdrian">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Adrian.jpg" alt="" />
+                            </a>
+                            <h4>Adrian Araza</h4>
+                            <p class="text-muted">Best Man</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    
+              
+
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalPam">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Pam.jpg" alt="" />
+                            </a>
+                            <h4>Pamela Tran</h4>
+                            <p class="text-muted">Bridesmaid</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalCarolyn">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Carolyn.jpg" alt="" />
+                            </a>
+                            <h4>Carolyn Li</h4>
+                            <p class="text-muted">Bridesmaid</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalJames">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/James.jpg" alt="" />
+                            </a>
+                            <h4>James Li</h4>
+                            <p class="text-muted">Bridesman</p>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="row">
+
+
+           
+                  <div class="col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalSean">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Sean.jpg" alt="" />
+                            </a>
+                            <h4>Sean Lockwood</h4>
+                            <p class="text-muted">Groomsman</p>
+                        </div>
+                    </div>
+                            <div class="col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalWillie">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Willie.jpg" alt="" />
+                            </a>
+                            <h4>Willie Greene</h4>
+                            <p class="text-muted">Groomsman</p>
+                        </div>
+                    </div>
+                             <div class="col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalEric">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Eric.jpg" alt="" />
+                            </a>
+                            <h4>Eric Bedoya</h4>
+                            <p class="text-muted">Groomsman</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="team-member">
+                            <a class="portfolio-link" data-toggle="modal" href="#modalZion">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Zion.jpg" alt="" />
+                            </a>
+                            <h4>Zion Ramon</h4>
+                            <p class="text-muted">Groomsman</p>
+                        </div>
+                    </div>
+        
+               
+                    
+                </div>                
+                <div class="row">
+                
+ 
+
+                 
+                </div>
+
+                </div>
+         
+        </section>
+            <!-- Accomodations Grid-->
+        <section class="page-section" id="accomodations">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Accomodations</h2>
+                    
+                    
+              
+                    
+                    
+                    
+                    <p class="text-muted">We will be booking blocks of rooms at two hotels in San Diego. Use the links below or call and mention our wedding and receive a discounted rate. Please reach out to Melissa or Adam if the hotel says there are no more rooms available.<br></p>
+                    
+                    
+                    <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-lg-6">
+                        <br><h6>Springhill Suites San Diego Downtown Bayfront</h6>
+                        <p class="text-muted">At 900 Bayfront Court, this hotel is on the same property as our venue. It is also a short walk from the Gaslamp Quarter and Little Italy. Rooms from $159. Does not include parking. Pet friendly for an additional fee.</p> 
+                        <a href="https://www.marriott.com/events/start.mi?id=1603132081596&key=GRP"><button class="btn btn-secondary" type="button">Book Springhill Suites</button></a><br>
+                        
+                    </div>
+                    <br>
+                    <div class="col-xs-12 col-sm-12 col-lg-6">
+                        <br><h6>TownePlace Suites San Diego Airport/Liberty Station</h6>
+                    
+                        
+                        <p class = "text-muted">At 2311 Lee Court, this hotel is only a short ride away from the airport and our venue. The room rate includes parking. Rooms from $179. Includes parking. Pet friendly for an additional fee.</p>
+                        
+                        <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1625007754851&key=GRP&app=resvlink"><button class="btn btn-secondary" type="button">Book Towneplace Suites</button></a>
+                        
+                        </div>
+                    </div>     
+                    
+                                           
+                    
+                    <br><br><iframe src="https://www.google.com/maps/d/embed?mid=1hEBI2hJPwAG0BrVTdBExc-vvhYtdRtKx" width = "100%" min-width = "300" max-width="600" height="380"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- OtherInfo-->
+                <section class="page-section bg-light" id="otherInfo">
+
+        <div class="py-5">
+            <div class="container">
+  <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Other Information</h2>
+      <h3 class="section-subheading text-muted">Common Questions and Things to Know</h3>
+                      </div>
+        <h4>Our Wedding Registry</h4>
+    <p class = "text-muted">We are registered at <a href = "https://www.crateandbarrel.com/gift-registry/melissa-tran-and-adam-araza/r6374549" target ="_blank">Crate and Barrel</a> and <a href="
+        Https://www.amazon.com/wedding/share/tranaraza2021" target ="_blank">Amazon</a>.</p><p class ="text-muted"> We also are also accepting donations toward our travel fund and our home savings fund. </p>            
+                <br>
+      <h4>Coronavirus</h4>
+    <p class = "text-muted">We are taking as many precautions as we can while we plan our wedding. In the event that it is deemed unsafe to hold a large gathering in San Diego County, we will take any necessary measures to ensure we get married before 2022. </p>
+        <br>
+                
+    <h4>Vaccinations</h4>
+    <p class = "text-muted">For the safety of our families and friends, we ask that all guests be fully vaccinated for Covid-19 before attending our wedding. If you are unable to receive the vaccination, we politely ask that you decline our invite.</p>
+    <br>
+
+    <h4>Can I Bring my Kids?</h4>
+    <p class = "text-muted">Our event is restricted to adults ages 18+. We love your kids from afar, and you deserve a night out!
+    </p>
+    <br>
+    <h4>Can I Bring a Guest or +1?</h4>
+    <p class = "text-muted">To keep the celebration intimate, we are keeping the guest list limited. Please do not bring anyone who was not invited.</p>
+    <br>
+
+    <br>
+    <h4>A Note on Vaping/Smoking</h4>
+    <p class = "text-muted">Please do not smoke or vape in the venue, including the outdoor balcony. Anyone doing so will be politely asked to leave. </p>
+    <br>
+    <h4>The Planning Process</h4>
+                <p class = "text-muted">Planning a wedding in San Diego wouldn't have been possible without the guidance from our fantastic wedding planner Jessica of <a href ="https://www.planprepparty.com/"target="_blank">Plan Prep Party</a>. If planning a SoCal wedding is in your future, we whole-heartedly recommend working with Jessica. See all our vendors <a class="portfolio-link" data-toggle="modal" href="#modalVendors">here</a>.</p>
+
+                    
+            </div>
+        </div>
+                            </section>
+     
+    
+        <!-- RSVP-->
+        <section class="page-section" id="RSVP">
+            <div class="container">
+                <div class="text-center">
+                <h2 class="section-heading text-uppercase">RSVP</h2>
+                                
+                    <h3 class="section-subheading text-muted">If you are having issues seeing the RSVP form, <a href ="https://tranaraza.rsvpify.com">click here</a></h3>
+                        
+                    <div class = "content">
+                        <div class = "errorMessage">
+                            <a href="https://tranaraza.rsvpify.com"><button class="btn btn-secondary" type="button">Mobile RSVP</button></a>
+                        </div>
+                        <div class = "dashboard">
+                                          <script type="text/javascript" src="https://app.rsvpify.com/embed/500409678" scrolling="yes"></script><script type="text/javascript" src="https://app.rsvpify.com/js/iframeResizer.min.js"></script><script type="text/javascript">iFrameResize({autoResize: true,checkOrigin: false,heightCalculationMethod: 'max', enablePublicMethods: true}, "#RSVPifyIFrame");</script>
+                        </div>
+
+                </div>
+                
+                </div></div>
+        </section>
+       <!-- am Banner-->
+        <section class="page-section" id="amBanner">
+            
+            </section>
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">© Waffles Tran Araza 2021</div>
+                </div>
+            </div>
+        </footer>
+        
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!--Leaflet Map -->
+
+        
+    </body>
+</html>
